@@ -1,0 +1,33 @@
+{
+  "name": "use-echo",
+  "version": "1.0.0",
+  "description": "React wrapper for Laravel Echo (socket.io) queue brodcasting and pub-sub",
+  "main": "src/useEcho.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallter/useEcho.git"
+  },
+  "keywords": [
+    "laravel",
+    "echo",
+    "react",
+    "hooks"
+  ],
+  "author": "Tyler Wall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wallter/useEcho/issues"
+  },
+  "homepage": "https://github.com/wallter/useEcho#readme",
+  "dependencies": {
+    "install": "^0.13.0",
+    "laravel-echo": "^1.5.4",
+    "lodash": "^4.17.15",
+    "npm": "^6.11.2",
+    "react-hanger": "^2.1.0",
+    "socket.io-client": "^2.2.0"
+  }
+}
