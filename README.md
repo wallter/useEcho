@@ -15,13 +15,8 @@ class OrdersUpdateEvent extends Event implements ShouldBroadcast
 {
     use Dispatchable, InteractsWithSockets, SerializesModels;
 
-    public $user;
-    public $request;
-
-    public function __construct(User $user, BulkOrderUpdateRequest $request)
+    public function __construct(public User $user, public BulkOrderUpdateRequest $request)
     {
-        $this->user = $user;
-        $this->request = $request;
     }
 
     public function broadcastOn()
